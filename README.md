@@ -30,4 +30,4 @@ Notice that only step 2) differs between the two examples.  Actually the way tha
 
 Here is an example of running both of the different implementations of the receiving server.
 
-![Example](/running_both_servers.png&raw=true)
+![Example](https://github.com/dschissler/zmq_device/raw/master/img/running_both_servers.png)
