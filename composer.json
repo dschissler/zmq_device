@@ -1,0 +1,6 @@
+{
+    "require": {
+        "react/event-loop": "^0.4.3",
+        "react/zmq": "^0.3.0"
+    }
+}
