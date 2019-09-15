@@ -1,5 +1,5 @@
 
-This is a simple example of using Pub Sub using a device server.  The reason for using using a ZMQDevice is that it is the only way to allow many publishers to many subscribers.  The reason for this is that there may only be a single socket bind on each port while there can be many connections.  The code to connect the two bound publisher and subscriber sockets is very small but it is required.
+This is a simple example of using Pub Sub using a device server.  The reason for using a ZMQDevice is that it is the only way to allow many publishers to many subscribers.  The reason for this is that there may only be a single socket bind on each port while there can be many connections.  The code to connect the two bound publisher and subscriber sockets is very small but it is required.
 
 This repo provides two examples of normal receiving servers that can be mixed together in any amount.  One first example uses a plain while loop with a small sleep if there are no messages to be read.  The second example requires The React Composer libraries to be installed and it uses a more advanced asynchronous event loop to accomplish the same thing.
 
